@@ -1,0 +1,25 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: aquamarine;
+    color: black;
+    opacity: 0.8;
+}
+
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+
+.btn::before{
+    content: "Pasa por encima";
+}
+
+.btn:hover::before{
+    content: "Bien hecho!!";
+}
